@@ -8,7 +8,7 @@ import paho.mqtt.client as mqtt
 BROKER_HOST = "10.0.0.79"
 BROKER_PORT = 1883
 KEEPALIVE_S = 60
-CLIENT_ID = "oXCVQwqXdf"
+CLIENT_ID = "oXCVQwqXdf_publisher"
 TEAM = "Vincent"
 DEVICE = "pi01"
 TOPIC_JSON = f"ahuntsic/aec-iot/b3/{TEAM}/{DEVICE}/sensors/temperature"
