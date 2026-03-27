@@ -22,6 +22,6 @@ mariadb -u user -p iot_db
 
 Preuve avec photo:
 
-![preuve1](C:\Users\vinc7\Downloads\images\preuve1.png)
+![preuve1](./images/preuve1.png)
 
-![preuve2](C:\Users\vinc7\Downloads\images\preuve2.png)
+![preuve2](./images/preuve2.png)
