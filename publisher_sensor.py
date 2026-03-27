@@ -5,7 +5,7 @@ import time
 from datetime import datetime, timezone
 import paho.mqtt.client as mqtt
 
-BROKER_HOST = "10.0.0.79"
+BROKER_HOST = "172.20.10.2"
 BROKER_PORT = 1883
 KEEPALIVE_S = 60
 CLIENT_ID = "oXCVQwqXdf_publisher"
@@ -18,11 +18,7 @@ QOS_SENSOR = 0
 QOS_STATUS = 1
 PUBLISH_PERIOD_S = 2.0
 def read_temperature_c() -> float:
- """
- Retourne une température en °C.
- Remplace cette fonction par la lecture de ton capteur réel (bloc précédent).
- Ici: simulation pour que tout le monde puisse avancer même sans matériel branché.
- """
+
  return round(20.0 + random.random() * 5.0, 2)
 connected = False
 def on_connect(client, userdata, flags, reason_code, properties=None):
