@@ -4,7 +4,7 @@ from typing import Any
 import paho.mqtt.client as mqtt
 from gpiozero import LED
 
-BROKER_HOST = "172.20.10.2"
+BROKER_HOST = "10.0.0.79"
 BROKER_PORT = 1883
 KEEPALIVE_S = 60
 TEAM = "Vincent"
